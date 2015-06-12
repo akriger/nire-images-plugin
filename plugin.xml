@@ -6,10 +6,15 @@
         Copy nire resources to res folder so they can be used as native resource.</description>
      <license>Apache 2.0</license>
      <keywords></keywords>
+
+     <!--
+     Android resources filename must conform [a-z0-9-_]
+     iOS resources does not care about target, but can't rename files.
+      -->
      <platform name="android">
-         <resource-file src="src/android/arrowLeft.png" target="res/drawable/arrowLeft.png" />
+         <resource-file src="res/android/arrow_left.png" target="res/drawable/arrow_left.png" />
      </platform>
      <platform name="ios">
-         <resource-file src="src/android/ic_close.png" target="res/drawable/ic_close.png" />
+         <resource-file src="res/ios/arrow_left.png" />
      </platform>
  </plugin>
