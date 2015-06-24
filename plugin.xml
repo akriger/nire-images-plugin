@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-         id="nire.plugins.images" version="0.0.1">
+         id="nire.plugins.images" version="0.0.2">
      <name>Nire Images Plugin</name>
      <description>
         Copy nire resources to res folder so they can be used as native resource.</description>
